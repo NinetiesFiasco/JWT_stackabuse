@@ -2,7 +2,7 @@
 Clear Node JS
 
 Токены отправляются с помощью HTTP заголовка Authorization  
-Формат: Bearer <token>
+Формат: Bearer &lt;token&gt;
 
 ## auth.js
 * POST `localhost:3000/login` - Войти с помощью логина и пароля (получить refresh и access токены)
